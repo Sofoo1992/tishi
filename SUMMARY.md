@@ -1,11 +1,11 @@
 # Table of contents
 
-* [🤖 小语 GPT 介绍](README.md)
-* [🗺️ 提示语学习导航](chatgpt-learning-path.md)
-* [基础篇](basic/README.md)
-  * [📝 简介](basic/jian-jie.md)
-  * [🔰 基础用法](basic/ji-chu-yong-fa.md)
-  * [🔑 基本原则 & 建议](basic/ji-ben-yuan-ze-jian-yi.md)
+* [🤖 小语 GPT 介绍](docs/readme.md)
+* [🗺️ 提示语学习导航](docs/chatgpt-learning-path.md)
+* [基础篇](docs/basic/README.md)
+  * [📝 简介](docs/basic/jian-jie.md)
+  * [🔰 基础用法](docs/basic/ji-chu-yong-fa.md)
+  * [🔑 基本原则 & 建议](docs/basic/ji-ben-yuan-ze-jian-yi.md)
 * [场景篇](ji-ben-shi-yong-chang-jing-shi-yong-ji-qiao/README.md)
   * [🔍 场景1：问答问题](ji-ben-shi-yong-chang-jing-shi-yong-ji-qiao/scenario-1-ask-questions.md)
   * [💡 场景2：基于示例回答](ji-ben-shi-yong-chang-jing-shi-yong-ji-qiao/chang-jing-2-ji-yu-shi-li-hui-da.md)
