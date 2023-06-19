@@ -27,6 +27,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  staticDirectories: ['static'],
 
   presets: [
     [
@@ -63,47 +64,17 @@ const config = {
         },
       },
       navbar: {
-        title: 'Learning Prompt',
+        title: '学习提示语',
         logo: {
-          alt: 'Learning Prompt logo',
+          alt: '学习提示语',
           src: 'img/logo.svg',
         },
         items: [
-          // todo: multiple version config
-          // {
-          //   type: 'docsVersionDropdown',
-          //   position: 'left',
-          //   dropdownActiveClassDisabled: true,
-          // },
-
           {
             type: 'doc',
-            docId: '👋 Welcome',
+            docId: 'readme',
             position: 'left',
-            label: '👋 欢迎',
-          },
-          {
-            type: 'doc',
-            docId: 'chatgpt-learning-path',
-            position: 'left',
-            label: '💬 ChatGPT 教程',
-          },
-          {
-            type: 'doc',
-            position: 'left',
-            docId: 'midjourney-learning-path',
-            label: '🖼️ Midjourney 教程',
-          },
-          { to: '/blog', label: '📰 更新日志', position: 'left' },
-          {
-            href: 'https://jimmywong.bio/',
-            label: '😎 关于我',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/thinkingjimmy/Learning-Prompt',
-            label: 'GitHub',
-            position: 'right',
+            label: '💬 提示语',
           },
         ],
       },
@@ -112,7 +83,7 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['rust'],
       },
-    }),
+    })
 }
 
 module.exports = config
