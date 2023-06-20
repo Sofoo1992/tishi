@@ -42,6 +42,13 @@ function loader(_source, b) {
         return `<img src="/${p.replaceAll(' ', '')}"`
     }))
 
+    // source = source.replaceAll(/\(([a-zA-Z-_\/]*\/)\)/g, (_, a) => {
+    //     if (a.split('/').length <= 2) {
+    //         return `(docs/${a})`
+    //     } else {
+    //         `(docs/category/${a})`
+    //     }
+    // })
     return source
 }
 

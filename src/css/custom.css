@@ -1032,3 +1032,7 @@ img[src$='#terminal'] {
   border-top-style: solid;
   border-top-width: 1px;
 }
+
+.navbar--fixed-top {
+  display: none;
+}
