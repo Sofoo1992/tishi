@@ -1033,9 +1033,9 @@ img[src$='#terminal'] {
   border-top-width: 1px;
 }
 
-.navbar--fixed-top {
+/* .navbar--fixed-top {
   display: none;
-}
+} */
 
 aside div {
   padding-top: 10px !important;
