@@ -12,7 +12,7 @@ const config = {
   title: 'Learning Prompt',
   tagline: '免费的 Prompt Engineering 教程',
   url: 'https://learningpromt.wiki',
-  baseUrl: '/',
+  baseUrl: '/learn',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
