@@ -1,4 +1,6 @@
-function loader(_source, b) {
+const sidemap = require('../sidebars').chatGPT
+
+function loader(_source) {
     let source = _source
 
     if (typeof source !== "string") {
@@ -42,13 +44,9 @@ function loader(_source, b) {
         return `<img src="/${p.replaceAll(' ', '')}"`
     }))
 
-    // source = source.replaceAll(/\(([a-zA-Z-_\/]*\/)\)/g, (_, a) => {
-    //     if (a.split('/').length <= 2) {
-    //         return `(docs/${a})`
-    //     } else {
-    //         `(docs/category/${a})`
-    //     }
-    // })
+    source = source.replaceAll(/\(([a-zA-Z-_\/]*)\/\)/g, (_, a) => {
+        return `(docs/${a})`
+    })
     return source
 }
 

@@ -1036,3 +1036,7 @@ img[src$='#terminal'] {
 .navbar--fixed-top {
   display: none;
 }
+
+aside div {
+  padding-top: 10px !important;
+}

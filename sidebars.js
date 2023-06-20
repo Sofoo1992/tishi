@@ -13,7 +13,7 @@
  const path = require('path')
  const summaryFile = path.join('docs/SUMMARY.md');
  
- const generateSitemap = () => {
+const generateSitemap = () => {
      const fileContent = fs.readFileSync(summaryFile, 'utf-8');
      const lines = fileContent.split('\n')
      const map = []
@@ -46,7 +46,8 @@
              last.items = last.items || []
              last.id && delete last.id
              last.link = {
-              type: 'generated-index'
+              type: 'generated-index',
+              slug: line.split('/')[0].includes('docs') ? line.split('/')[1] : line.split('/')[0]
              }
  
              last.items.push(item.id)
