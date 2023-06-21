@@ -52,7 +52,7 @@ const generateSitemap = () => {
  
              last.items.push(item.id)
          } else {
-             console.error("未支持三层目录结构解析")
+             console.error("未支持三层目录结构解析.")
          }
      })
  
