@@ -102,9 +102,3 @@ sidebar_position: 1
 {% embed url="https://player.bilibili.com/player.html?aid=997395929&bvid=BV1ws4y117S4&cid=1168685120&page=1" %}
 学会写提示语，就能摆脱职场内卷？AI浪潮下，提示语工程师还能火多久？ChatGPT带火的新职业
 {% endembed %}
-
-[https://player.bilibili.com/player.html?aid=997395929\&bvid=BV1ws4y117S4\&cid=1168685120\&page=1](https://player.bilibili.com/player.html?aid=997395929\&bvid=BV1ws4y117S4\&cid=1168685120\&page=1)
-
-{% embed url="https://www.bilibili.com/video/BV1ws4y117S4?t=10.8" %}
-学会写提示语，就能摆脱职场内卷？AI浪潮下，提示语工程师还能火多久？ChatGPT带火的新职业
-{% endembed %}
