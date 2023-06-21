@@ -1040,3 +1040,7 @@ img[src$='#terminal'] {
 aside div {
   padding-top: 10px !important;
 }
+
+mark {
+  background-color: transparent;
+}

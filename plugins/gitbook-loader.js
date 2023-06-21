@@ -19,12 +19,6 @@ function loader(_source) {
       source = source.replaceAll("<xml>", "");
     }
 
-    const res = /style="color:(.*);"/.exec(source)
-
-    if (res && res[1]) {
-        source = source.replaceAll(/style="color:(.*)"/g, `style={{color:'${res[1]}'}}`)
-    }
-
     if (source.includes(`{% hint style="info" %}`)) {
         source = source.replaceAll(`{% hint style="info" %}`, ':::info\n')
     }
@@ -47,6 +41,35 @@ function loader(_source) {
     source = source.replaceAll(/\(([a-zA-Z-_\/]*)\/\)/g, (_, a) => {
         return `(docs/category/${a})`
     })
+
+     // style
+    source = source.replaceAll(/style="([a-z:-;]*)"/g, (_, a,c,d) => {
+        if (!a.includes(';') || !a.includes(':')) {
+            return _
+        }
+
+        const styles = a.split(';');
+        let styleObj = "style={{";
+
+        styles.forEach(s => {
+            if (!s) {
+                return;
+            }
+
+            const [key,value] = s.split(':')
+
+            styleObj += `${key}:\"${value}\",`
+        })
+
+        return styleObj.substring(0, styleObj.length - 1)  + "}}"
+    })
+
+    // mark
+    source = source.replaceAll(/<mark\s+([^>]*)>\*\*([^<]*)\*\*<\/mark>/g, (_, a, b) => {
+        console.log('hi')
+        return `<strong><mark ${a}>${b}</mark></strong>`
+    })
+
     return source
 }
 
