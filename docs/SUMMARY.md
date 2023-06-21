@@ -6,6 +6,7 @@
   * [📝 简介](basic/jian-jie.md)
   * [🔰 基础用法](basic/ji-chu-yong-fa.md)
   * [🔑 基本原则 & 建议](basic/ji-ben-yuan-ze-jian-yi.md)
+  * [📘 使用技巧&常见问题](basic/shi-yong-ji-qiao-chang-jian-wen-ti.md)
 * [场景篇](scenario/README.md)
   * [🔍 场景1：问答问题](scenario/scenario-1-ask-questions.md)
   * [💡 场景2：基于示例回答](scenario/chang-jing-2-ji-yu-shi-li-hui-da.md)
