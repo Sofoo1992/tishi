@@ -48,7 +48,7 @@ const generateSitemap = () => {
              if (!last.link) {
               last.link = {
                 type: 'generated-index',
-                slug: last.id.split('/')[0].includes('docs') ? last.id.split('/')[1] : last.id.split('/')[0]
+                slug: 'category/' + (last.id.split('/')[0].includes('docs') ? last.id.split('/')[1] : last.id.split('/')[0])
                }
              }
 

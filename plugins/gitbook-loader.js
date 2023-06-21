@@ -45,7 +45,7 @@ function loader(_source) {
     }))
 
     source = source.replaceAll(/\(([a-zA-Z-_\/]*)\/\)/g, (_, a) => {
-        return `(docs/${a})`
+        return `(docs/category/${a})`
     })
     return source
 }
