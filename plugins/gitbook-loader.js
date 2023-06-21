@@ -66,8 +66,20 @@ function loader(_source) {
 
     // mark
     source = source.replaceAll(/<mark\s+([^>]*)>\*\*([^<]*)\*\*<\/mark>/g, (_, a, b) => {
-        console.log('hi')
         return `<strong><mark ${a}>${b}</mark></strong>`
+    })
+
+    // 视频
+    /**
+     * {% embed url="https://www.bilibili.com/video/BV1ws4y117S4?t=10.8" %}
+学会写提示语，就能摆脱职场内卷？AI浪潮下，提示语工程师还能火多久？ChatGPT带火的新职业
+{% endembed %}
+     */
+    source = source.replaceAll(/\{%\s+embed\s+url="([^}]*)"\s*\%}\n\s*(.*)\n\s*\{% endembed %\}/mg, (_, a, b) => {
+        return `<div style={{textAlign: 'center', paddingBottom: '56.25%', width: '100%', position: 'relative'}}> 
+<iframe width="100%" height='100%' style={{position: 'absolute', top: 0, left: 0}} src="${a}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        </div>
+        <div style={{textAlign: 'center',fontSize: '12px', color: 'rgb(136, 153, 168)', marginTop: '8px'}}>${b.trim()}</div>`
     })
 
     return source
