@@ -44,11 +44,15 @@ const generateSitemap = () => {
  
              last.type = "category";
              last.items = last.items || []
-             last.id && delete last.id
-             last.link = {
-              type: 'generated-index',
-              slug: line.split('/')[0].includes('docs') ? line.split('/')[1] : line.split('/')[0]
+             
+             if (!last.link) {
+              last.link = {
+                type: 'generated-index',
+                slug: last.id.split('/')[0].includes('docs') ? last.id.split('/')[1] : last.id.split('/')[0]
+               }
              }
+
+             last.id && delete last.id
  
              last.items.push(item.id)
          } else {
@@ -80,7 +84,6 @@ const generateSitemap = () => {
  const sidebars = {
    chatGPT: generateSitemap(),
  }
-
  
  module.exports = sidebars
  
