@@ -7,9 +7,12 @@ function loader(_source) {
         return;
     }
 
-    if (source.includes(`alt="">`)) {
-      source = source.replaceAll(`alt="">`, `alt=""/>`);
-    }
+    // if (source.includes(`alt="">`)) {
+    //   source = source.replaceAll(`alt="">`, `alt=""/>`);
+    // }
+    source = source.replaceAll(/alt="([^>]*)"\s*>/g, a => {
+        return a.substring(0, a.length - 1) + '/>';
+    })
 
     if (source.includes("<br>")) {
       source = source.replaceAll("<br>", "<br />");
