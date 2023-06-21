@@ -37,4 +37,4 @@ return x
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/scene6_1.png" alt=""><figcaption><p>小语GPT根据需求编写Python代码</p></figcaption></figure>
