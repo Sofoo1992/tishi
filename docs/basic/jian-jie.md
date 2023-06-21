@@ -14,7 +14,11 @@ sidebar_position: 1
 
 比如，我们在 小语 GPT 里输入“中国的首都是什么？”，这个问题就是 「提示语」。\\
 
-<figure><img src="../.gitbook/assets/image(60).png" alt=""><figcaption><p>向小语GPT提问</p></figcaption></figure>
+<div align="left" data-full-width="false">
+
+<figure><img src="../.gitbook/assets/image(60).png" alt="" width="563"><figcaption><p>向小语GPT提问</p></figcaption></figure>
+
+</div>
 
 而「提示语工程」则是：
 
@@ -40,7 +44,11 @@ sidebar_position: 1
 
 小语 4.0 回复：
 
-<figure><img src="../.gitbook/assets/base_introduction_1.png" alt=""><figcaption><p>小语GPT介绍《富爸爸，穷爸爸》这本书</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/base_introduction_1.png" alt="" width="563"><figcaption><p>小语GPT介绍《富爸爸，穷爸爸》这本书</p></figcaption></figure>
+
+</div>
 
 我们可以看出 AI 给的回复已经非常清晰明了，概括了这本书的核心观点和主要财务观念。但如果我们对提示语进行一些修改，给出 7 个具体的问题让他回答，修改后的提示语如下：
 
@@ -90,7 +98,11 @@ sidebar_position: 1
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/base_introduction_2.png" alt=""><figcaption><p>小语GPT解答关于《富爸爸，穷爸爸》的 7 个具体的问题</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/base_introduction_2.png" alt="" width="563"><figcaption><p>小语GPT解答关于《富爸爸，穷爸爸》的 7 个具体的问题</p></figcaption></figure>
+
+</div>
 
 使用修改后的提示语提问，AI 给出了更系统和更完整的回复，清单体的回复方式也让答案看起来更加清晰。所以，总的来说，提示语工程师是一种重要的 AI 技能：
 

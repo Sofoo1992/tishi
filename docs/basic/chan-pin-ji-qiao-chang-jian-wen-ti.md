@@ -8,7 +8,7 @@
 
 小语 GPT 每次回复的内容具有一定的随机性，如果我们对小语的本次回复内容不满意，可以将鼠标悬浮到回复内容上会出现**「重试」**，点击即可重新生成回复内容。
 
-<figure><img src="../.gitbook/assets/重新生成.gif" alt=""><figcaption><p>以替换的方式重新生成回复内容</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/重新生成.gif" alt="" width="563"><figcaption><p>以替换的方式重新生成回复内容</p></figcaption></figure>
 
 此外，如果对本次回复内容不满意，你也可以选择在输入框的上方点击**「重写」**再次生成一条回复，与前面不同的是原先的回复内容会被保留。
 
