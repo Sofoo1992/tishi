@@ -71,7 +71,7 @@ TBD
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/修改已输入.gif" alt="" width="563"><figcaption><p>修改已发送的内容</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/修改已输入 (1).gif" alt="" width="563"><figcaption><p>修改已发送的内容</p></figcaption></figure>
 
 </div>
 

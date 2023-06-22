@@ -8,7 +8,7 @@ GPT在回答一些深奥主题或需要引用网址的问题时，可能会胡�
 
 ## 使用参考文本指导模型的答案
 
-如果我们能为模型提供与当前查询相关的可靠信息，那么我们可以指示模型利用所提供的信息来撰写答案。&#x20;
+如果我们能为模型提供与当前查询相关的可靠信息，那么我们可以指示模型利用所提供的信息来撰写答案。
 
 提示语结构：
 
@@ -43,7 +43,7 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(28).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_2_1 (1).png" alt=""><figcaption><p>小语GPT指定模结合参考答案输出结果示例</p></figcaption></figure>
 
 ## **指导模型使用参考文本中的引文来回答**
 
@@ -80,5 +80,4 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(12).png" alt="" /><figcaption></figcaption></figure>
-
+<figure><img src="../.gitbook/assets/best6_2_2 (1).png" alt=""><figcaption><p>小语GPT直接使用引文不使用任何外部知识库进行解答示例</p></figcaption></figure>

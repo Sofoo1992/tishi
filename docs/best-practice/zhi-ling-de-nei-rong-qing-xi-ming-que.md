@@ -67,7 +67,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(66).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_1_1.png" alt=""><figcaption><p>通过&#x3C;xml>格式描述问题让小语GPT理解问题更加容易</p></figcaption></figure>
 
 > 若你不清楚XML语法，可查阅 [W3cschool-XML语法](https://www.w3cschool.cn/xml/xml-syntax.html)
 
@@ -96,7 +96,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 5. GPT-4：实现人类水平表现的智能模型
 ```
 
-<figure><img src="../.gitbook/assets/image(69).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_1_2.png" alt=""><figcaption><p>小语GPT-章节标题示例</p></figcaption></figure>
 
 ## **四、明确指定完成任务所需的步骤**
 
@@ -133,7 +133,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(10).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_1_3.png" alt=""><figcaption><p>小语GPT指导模型分步骤完成输出示例</p></figcaption></figure>
 
 ## **五、提供示例**
 
@@ -162,7 +162,7 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 答：浩渺的海洋源于细小的水滴；无尽的波涛起于轻柔的风；丰富的生命汇聚于深邃的蓝。
 ```
 
-<figure><img src="../.gitbook/assets/image(26).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_1_4.png" alt=""><figcaption><p>小语GPT向模型举例获得更精确的答案示例</p></figcaption></figure>
 
 ## **六、指定所需输出的长度**
 
@@ -198,4 +198,4 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image(51).png" alt="" /><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/best6_1_5 (1).png" alt=""><figcaption><p>小语GPT指定输出内容长度示例</p></figcaption></figure>
