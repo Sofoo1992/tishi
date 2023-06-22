@@ -8,7 +8,11 @@ sidebar_position: 0
 
 2023年三月份，英伟达CEO黄仁勋和OpenAI首席科学家伊利亚·苏茨科弗（Ilya Sutskever）有一个对谈。在这个对谈中，苏茨科弗进一步解释了GPT是怎么回事儿。
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/image(40).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 苏茨科弗说，GPT的确只是一个神经网络语言模型，它被训练出来只是要预测下一个单词是什么——但是，如果你训练得足够好，它就能很好地掌握事物之间的各种统计相关性。而这就意味着神经网络真正学习的，其实是「世界的一个投影」——
 
@@ -61,13 +65,17 @@ GPT是一个语言模型，可以用来回答各种问题。无论用中文还�
 学习最好的学习方法，就是**理论+实践**。所以建议你在学习的过程中将提示语复制到小语 GPT 中运行一次，这样即使是小白，看完教程后，也能够快速上手。
 
 {% hint style="info" %}
-需要说明的是，当我们把学院中的提示语复制到小语 GPT 生成回复时会发现跟学院中的示例不一样，这是**正常**的，这是由于 GPT 的回复是基于统计概率，因此每次回复的内容都具有一定的随机性。
+🟢 需要说明的是，当我们把学院中的提示语复制到小语 GPT 生成回复时会发现跟学院中的示例不一样，这是**正常**的。因为 GPT 的内容生成是基于统计的概率进行回复，每次回复的内容都具有一定的随机性。
 {% endhint %}
 
 ### 不懂就问
 
 在学院中，你可能会遇到一些初次接触的名词或概念，这些内容可能会让你感到难以理解，这是完全正常的。你可以把你的疑惑详细地向小语 GPT 提问，小语都能为你解答。就如同你的领导对待你一样，你可以向小语持续提问，直到你彻底理解为止。例如，我这里对「意图分类」这个概念不太清楚：
 
-<figure><img src=".gitbook/assets/alwaysASK.jpg" alt=""><figcaption><p>不懂就问</p></figcaption></figure>
+<div align="left">
+
+<figure><img src=".gitbook/assets/alwaysASK.jpg" alt="" width="563"><figcaption><p>不懂就问</p></figcaption></figure>
+
+</div>
 
 > 需要特别说明的是，[基础篇](basic/)、[场景篇](scenario/)、[高级篇](advanced/)和[技巧篇](tips/)基于[Learning Prompt](https://learningprompt.wiki/)进行的二次修改。
