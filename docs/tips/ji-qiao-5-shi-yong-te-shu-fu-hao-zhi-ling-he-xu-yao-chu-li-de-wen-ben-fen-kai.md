@@ -6,7 +6,7 @@ sidebar_position: 5
 
 不管是信息总结，还是信息提取，你一定会输入大段文字，甚至多段文字，此时有个小技巧。
 
-可以用“”“将指令和文本分开。根据我们的测试，如果你的文本有多段，增加”“”会提升 AI 反馈的准确性（这个技巧来自于 OpenAI 的 API [最佳实践文档](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)）
+可以用三重引号“”“将指令和文本分开。根据我们的测试，如果你的文本有多段，增加”“”会提升 AI 反馈的准确性（你可以在[使用分隔符清晰地标示输入的不同部分](../best-practice/zhi-ling-de-nei-rong-qing-xi-ming-que.md#san-shi-yong-fen-ge-fu-qing-xi-di-biao-shi-shu-ru-de-bu-tong-bu-fen)了解更多）
 
 像我们之前写的提示语就属于没那么有效。为什么呢？根据我们的经验目前 AI 还不能稳定的知道什么是指令，什么是待处理的内容，用符号分隔开来会更利于 AI 区分。
 

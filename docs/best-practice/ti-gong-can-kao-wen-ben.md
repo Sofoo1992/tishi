@@ -3,7 +3,7 @@
 GPT在回答一些深奥主题或需要引用网址的问题时，可能会胡说八道编造虚假答案。这时你可以为 GPT 提供参考文本可以帮助它们在回答问题时减少捏造内容。
 
 {% hint style="info" %}
-当你初次阅读时，你可能会觉得以下两种方式是一样的。其实，这两种策略虽然都是提供参考文本给GPT，但他们的使用方式和目的有所不同。前者更侧重于让模型理解并使用参考文本中的信息再结合GPT的知识库进行回答，而后者则更侧重于让模型直接引用参考文本中的内容进行回答。
+🟡 当你初次阅读时，你可能会觉得以下两种方式是一样的。其实，这两种策略虽然都是提供参考文本给GPT，但他们的使用方式和目的有所不同。前者更侧重于让模型理解并使用参考文本中的信息再结合GPT的知识库进行回答，而后者则更侧重于让模型直接引用参考文本中的内容进行回答。
 {% endhint %}
 
 ## 使用参考文本指导模型的答案
@@ -43,7 +43,11 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_2_1 (1).png" alt=""><figcaption><p>小语GPT指定模结合参考答案输出结果示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_2_1 (1).png" alt="" width="563"><figcaption><p>小语GPT指定模结合参考答案输出结果示例</p></figcaption></figure>
+
+</div>
 
 ## **指导模型使用参考文本中的引文来回答**
 
@@ -80,4 +84,8 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_2_2 (1).png" alt=""><figcaption><p>小语GPT直接使用引文不使用任何外部知识库进行解答示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_2_2 (1).png" alt="" width="563"><figcaption><p>小语GPT只使用上下文内容进行解答示例</p></figcaption></figure>
+
+</div>

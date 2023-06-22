@@ -74,7 +74,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_6_1 (1).png" alt=""><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_1 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+
+</div>
 
 这是一个只满足一个条件的示例输入，提示语：
 
@@ -120,7 +124,11 @@
 {"计数": 1}
 ```
 
-<figure><img src="../.gitbook/assets/best6_6_2.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_2.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 这是一个没有满足条件的示例输入，提示语：
 
@@ -165,7 +173,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_6_3.png" alt=""><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_3.png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+
+</div>
 
 ## 跟踪模型输出与标准答案的重叠类型以及是否矛盾
 
@@ -212,7 +224,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_6_4 (1).png" alt=""><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_4 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+
+</div>
 
 这是一个带有答案的示例输入，直接与专家答案相矛盾，提示语：
 
@@ -249,7 +265,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_6_5 (1).png" alt=""><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_5 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+
+</div>
 
 这是一个示例输入，其中的答案是正确的，但提供的详细信息稍微超出了必要范围，提示语：
 
@@ -286,4 +306,8 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_6_6 (1).png" alt=""><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_6_6 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
+
+</div>

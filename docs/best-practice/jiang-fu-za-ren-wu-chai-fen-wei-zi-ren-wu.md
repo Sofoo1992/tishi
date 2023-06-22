@@ -49,7 +49,11 @@
 }
 ```
 
-<figure><img src="../.gitbook/assets/best6_3_1.png" alt=""><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_3_1.png" alt="" width="563"><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
+
+</div>
 
 根据客户咨询的分类，我们可以为GPT模型提供一套更具体的指示来处理后续步骤。例如，假设客户需要帮助进行"故障排查"。
 
@@ -106,12 +110,16 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_3_2 (1).png" alt=""><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_3_2.png" alt="" width="563"><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
+
+</div>
 
 请注意，这个模型就像一个游戏，它可以发出特殊的文字来告诉我们游戏进行到哪一步了。这样我们就可以把这个系统想象成一个游戏机，游戏机里的每一步都决定了我们应该做什么。通过记住每一步，了解在这一步我们可以做什么，以及下一步我们可以做什么，我们就可以更好地保护用户的体验，这在一些不太有规则的方法中是很难做到的。
 
 {% hint style="info" %}
-如果我们不是开发者的话，下面的两个技巧我们都用不到。我们这里也只是简单介绍基本原理，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)进行查看。
+🟡 如果我们不是开发者的话，下面的两个技巧我们都用不到。我们这里也只是简单介绍基本原理，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/tactic-summarize-long-documents-piecewise-and-construct-a-full-summary-recursively)进行查看。
 {% endhint %}
 
 ## **对需要非常多内容的对话场景，可以对之前的对话进行总结或过滤**

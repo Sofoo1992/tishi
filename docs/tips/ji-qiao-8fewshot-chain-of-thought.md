@@ -10,13 +10,13 @@ sidebar_position: 8
 
 下面是论文里的案例，使用方法很简单，在技巧 2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
-<div>
+<div align="left">
 
 <figure><img src="../.gitbook/assets/%E5%B0%91%E6%A0%B7%E6%9C%AC%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA%E8%AF%AD.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/skill08_1.png" alt=""><figcaption><p>少样本思维链提示语 VS 标准提示语对比图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/skill08_1.png" alt="" width="563"><figcaption><p>少样本思维链提示语 VS 标准提示语对比图</p></figcaption></figure>
 
 </div>
 
@@ -39,7 +39,11 @@ sidebar_position: 8
 答：
 ```
 
-<figure><img src="../.gitbook/assets/skill08_2.png" alt=""><figcaption><p>小语GPT通过少样本思维链解答基偶求和问题</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/skill08_2.png" alt="" width="563"><figcaption><p>小语GPT通过少样本思维链解答基偶求和问题</p></figcaption></figure>
+
+</div>
 
 聊完技巧，我们再结合前面的零样本思维链，来聊聊思维链的关键知识。根据 [Sewon Min](https://arxiv.org/search/cs?searchtype=author\&query=Min%2C+S) 等人在 [2022 年的研究](https://arxiv.org/abs/2202.12837) 表明，思维链有以下特点：
 
@@ -61,9 +65,13 @@ sidebar_position: 8
 消极
 ```
 
-<figure><img src="../.gitbook/assets/skill08_3.png" alt=""><figcaption><p>小语GPT少样本思维链示例</p></figcaption></figure>
+<div align="left">
 
-在上述的案例里，每一行，我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
+<figure><img src="../.gitbook/assets/skill08_3.png" alt="" width="563"><figcaption><p>小语GPT少样本思维链示例</p></figcaption></figure>
 
-1. 即使我们给内容打的标签是错误的（比如第一句话，其实应该是积极），对于模型来说，它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（积极或者消极）。这就是前面论文里 #1 提到的，即使我们给的标签是错误的，或者换句话说，是否基于事实，并不重要。标签和输入的文本，以及格式才是关键因素。
-2. 只要给了示例，即使随机的标签，对于模型生成结果来说，都是有帮助的。这就是前面论文里 #2 提到的内容。
+</div>
+
+在上述的案例里，每一行我们都写了一句话和一个情感词，并用 // 分开，但我给这些句子都标记了错误的答案，比如第一句其实应该是积极才对。但：
+
+1. 即使我们给内容打的标签是错误的（比如第一句话，其实应该是积极），对于模型来说它仍然会知道需要输出什么东西。 换句话说，模型知道 // 划线后要输出一个衡量该句子表达何种感情的词（积极或者消极）。即使我们给的标签是错误的，或者换句话说，是否基于事实并不重要。标签和输入的文本以及格式才是关键因素。
+2. 只要给了示例，即使随机的标签，对于模型生成结果来说都是有帮助的。

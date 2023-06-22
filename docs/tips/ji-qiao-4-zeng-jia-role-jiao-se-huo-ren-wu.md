@@ -24,7 +24,11 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/skill04_1.png" alt=""><figcaption><p>小语GPT用通俗易懂的方式解答复杂问题</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/skill04_1.png" alt="" width="563"><figcaption><p>小语GPT用通俗易懂的方式解答复杂问题</p></figcaption></figure>
+
+</div>
 
 另外除了增加角色外，还能让 AI 模拟某个人，比如让 AI 以大卫·福斯特·华莱士的风格改写上述那段话：
 
@@ -40,6 +44,10 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/skill04_2.png" alt=""><figcaption><p>小语GPT模仿大卫·福斯特·华莱士的风格解答什么是OopenAI</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/skill04_2.png" alt="" width="563"><figcaption><p>小语GPT模仿大卫·福斯特·华莱士的风格解答什么是OpenAI</p></figcaption></figure>
+
+</div>
 
 关于这个技巧的应用，以及如何更好地使用 AI 提升写作能力，建议各位阅读 Nat Eliason 的 [Using ChatGPT as a Writing Coach](https://blog.nateliason.com/p/chatgpt-writing-coach)，他使用 ChatGPT 辅助其写作，就用到了上述的技巧。

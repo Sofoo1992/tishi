@@ -36,11 +36,19 @@ print(real_roots)
 ````
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_5_1.png" alt=""><figcaption><p>小语GPT根据需求生成Python代码示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_5_1.png" alt="" width="563"><figcaption><p>小语GPT根据需求生成Python代码示例</p></figcaption></figure>
+
+</div>
 
 遗憾的是，这种方式GPT 目前只能给到我们Python代码，还没有办法将代码运行直接给到我们结果（有些鸡肋），我们接下来可以选择找一个[在线代码运行](https://ideone.com/)工具（📢注意将语言切换为 "Python3"），复制这段代码运行得到答案。
 
-<figure><img src="../.gitbook/assets/best6_5_2.png" alt=""><figcaption><p>Python代码在线运行示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_5_2.png" alt="" width="563"><figcaption><p>Python代码在线运行示例</p></figcaption></figure>
+
+</div>
 
 ### 发散一下
 
@@ -55,8 +63,8 @@ print(real_roots)
 
 ## 调用外部 API
 
-{% hint style="warning" %}
-如果我们不是开发者的话，这个技巧我们不太会用到。在这里进行简单介绍，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)进行查看。
+{% hint style="info" %}
+🟡 如果我们不是开发者的话，这个技巧我们不太会用到。在这里进行简单介绍，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/tactic-use-code-execution-to-perform-more-accurate-calculations-or-call-external-apis)进行查看。
 {% endhint %}
 
 代码执行的另一个好用例是调用外部API。如果模型被正确地指导使用API，它可以编写利用它的代码。通过提供文档和/或展示如何使用API的代码示例，可以指导模型如何使用API。
@@ -96,12 +104,16 @@ message.write(to="爱丽丝", message="嘿，我们10点在咖啡店见面。")
 ```
 ````
 
-<figure><img src="../.gitbook/assets/best6_5_3.png" alt=""><figcaption><p>调用外部API示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_5_3.png" alt="" width="563"><figcaption><p>调用外部API示例</p></figcaption></figure>
+
+</div>
 
 ## **使用基于嵌入的搜索实现高效知识检索**
 
-{% hint style="warning" %}
-如果我们不是开发者的话，这个技巧我们不太会用到。在这里进行简单介绍，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-use-external-tools)进行查看。
+{% hint style="info" %}
+🟡 如果我们不是开发者的话，这个技巧我们不太会用到。在这里进行简单介绍，如需深入学习可前往[OpenAI 官方文档](https://platform.openai.com/docs/guides/gpt-best-practices/strategy-use-external-tools)进行查看。
 {% endhint %}
 
 如果将外部信息源作为输入的一部分提供给模型，那么模型就可以利用这些信息生成更有见地且更及时的回答。例如，如果用户询问关于某部特定电影的问题，将关于该电影的高质量信息（如演员、导演等）添加到模型的输入中可能会很有帮助。嵌入可用于实现高效的知识检索，以便在运行时动态向模型输入中添加相关信息。

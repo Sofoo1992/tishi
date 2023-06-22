@@ -6,7 +6,7 @@ GPT无法读懂你的心思，如果输出答案太啰嗦，请要求它简洁�
 
 为了获得满意的回答，请在提问时明确需求细节。让模型去猜测你的心思，将无法获得最理想的答案。
 
-<table><thead><tr><th width="292">不太有效的</th><th>更好的</th></tr></thead><tbody><tr><td>如何在Excel中进行数值相加？</td><td>如何在Excel中将一行美元金额相加？我希望对整个工作表中的所有行进行自动求和，并将所有的总和以“Total”列的形式显示在右侧。</td></tr><tr><td>谁是现任总统？</td><td>2021年墨西哥的总统是谁？选举多久进行一次？</td></tr><tr><td>编写一段计算斐波那契数列的代码</td><td>编写一个高效计算斐波那契数列的 TypeScript 函数。请在代码中添加充分的注释，解释每个部分的功能以及为什么以这种方式编写。</td></tr><tr><td>总结会议记录<br></td><td>用一个段落总结会议记录。然后以 Markdown 列表的形式列出与会人员及其要点。最后，如果有的话，列出与会人员建议的下一步行动或待办事项。</td></tr></tbody></table>
+<table><thead><tr><th width="299.9349593495935">不太有效的</th><th>更好的</th></tr></thead><tbody><tr><td>如何在Excel中进行数值相加？</td><td>如何在Excel中将一行美元金额相加？我希望对整个工作表中的所有行进行自动求和，并将所有的总和以“Total”列的形式显示在右侧。</td></tr><tr><td>谁是现任总统？</td><td>2021年墨西哥的总统是谁？选举多久进行一次？</td></tr><tr><td>编写一段计算斐波那契数列的代码</td><td>编写一个高效计算斐波那契数列的 TypeScript 函数。请在代码中添加充分的注释，解释每个部分的功能以及为什么以这种方式编写。</td></tr><tr><td>总结会议记录<br></td><td>用一个段落总结会议记录。然后以 Markdown 列表的形式列出与会人员及其要点。最后，如果有的话，列出与会人员建议的下一步行动或待办事项。</td></tr></tbody></table>
 
 ## **二、给模型设定身份角色**
 
@@ -17,6 +17,7 @@ GPT无法读懂你的心思，如果输出答案太啰嗦，请要求它简洁�
 {% code overflow="wrap" %}
 ```
 你是一位小学老师，能够将复杂的内容解释得让7或8岁的孩子也能理解。请重新编写以下句子，使它们更容易理解。
+
 """
 OpenAI是一个美国人工智能（AI）研究实验室，由非营利组织OpenAI Incorporated（OpenAI Inc.）和其盈利子公司OpenAI Limited Partnership（OpenAI LP）组成。 OpenAI旨在推广和发展友好型人工智能，并使用世界第五大超级计算机进行研究。该组织于2015年由Sam Altman、Reid Hoffman、Jessica Livingston、Elon Musk、Ilya Sutskever、Peter Thiel等人在旧金山创立，共承诺捐赠10亿美元。Musk于2018年从董事会辞职但仍然是捐赠者。微软于2019年向OpenAI LP提供了10亿美元的投资，并在2023年1月提供了第二笔多年期投资，金额据报道为100亿美元。
 """
@@ -67,7 +68,11 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_1_1.png" alt=""><figcaption><p>通过&#x3C;xml>格式描述问题让小语GPT理解问题更加容易</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_1_1.png" alt="" width="563"><figcaption><p>通过&#x3C;xml>格式描述问题让小语GPT理解问题更加容易</p></figcaption></figure>
+
+</div>
 
 > 若你不清楚XML语法，可查阅 [W3cschool-XML语法](https://www.w3cschool.cn/xml/xml-syntax.html)
 
@@ -133,7 +138,11 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_1_3.png" alt=""><figcaption><p>小语GPT指导模型分步骤完成输出示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_1_3.png" alt="" width="563"><figcaption><p>小语GPT指导模型分步骤完成输出示例</p></figcaption></figure>
+
+</div>
 
 ## **五、提供示例**
 
@@ -162,7 +171,11 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 答：浩渺的海洋源于细小的水滴；无尽的波涛起于轻柔的风；丰富的生命汇聚于深邃的蓝。
 ```
 
-<figure><img src="../.gitbook/assets/best6_1_4.png" alt=""><figcaption><p>小语GPT向模型举例获得更精确的答案示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_1_4.png" alt="" width="563"><figcaption><p>小语GPT向模型举例获得更精确的答案示例</p></figcaption></figure>
+
+</div>
 
 ## **六、指定所需输出的长度**
 
@@ -198,4 +211,8 @@ GPTs在推理方面的一个重要局限是它们无法进行因果推理，这�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_1_5 (1).png" alt=""><figcaption><p>小语GPT指定输出内容长度示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_1_5 (1).png" alt="" width="563"><figcaption><p>小语GPT指定输出内容长度示例</p></figcaption></figure>
+
+</div>

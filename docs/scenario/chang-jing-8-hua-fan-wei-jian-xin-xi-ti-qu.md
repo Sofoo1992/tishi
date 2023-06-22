@@ -57,7 +57,11 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/scene8_1.png" alt=""><figcaption><p>小语GPT根据特殊格式提取信息</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/scene8_1.png" alt="" width="563"><figcaption><p>小语GPT根据特殊格式提取信息</p></figcaption></figure>
+
+</div>
 
 ## **技巧 6：通过格式词阐述需要输出的格式**
 
@@ -97,7 +101,11 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 - 社区和城市被毁
 ```
 
-<figure><img src="../.gitbook/assets/scene8_2.png" alt=""><figcaption><p>小语GPT通过格式化方式输出信息</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/scene8_2.png" alt="" width="563"><figcaption><p>小语GPT通过格式化方式输出信息</p></figcaption></figure>
+
+</div>
 
 关于这个场景和技巧想再解释一下为什么潜力很大。根据使用各种总结或者信息提取的产品发现，AI 并不知道什么是重点，所以在总结的过程中，会丢失很多内容。如何引导 AI 进行总结，就变得非常重要，且具有一定的可玩性。针对此场景的技巧：
 
@@ -109,13 +117,13 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 
 比如：
 
-```other
-{context}
-Question: What is bond duration mentioned here.
-Answer template (Valid JSON format):
+```
+{上下文}
+问题：这里提到的债券期限是什么？
+答案模板（有效的JSON格式）：
 {{
-"duration": $duration_numeric_value_in_year,
-"confidence_level": $answer_confidence_level_high_moderate_or_low,
+"期限": $年度数值,
+"置信水平":$答案置信水平为高、中或低,
 }}
-Answer:
+答案：
 ```

@@ -44,7 +44,11 @@ WHERE d.DepartmentName = 'Computer Science Department';
 ````
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/scene4_1.png" alt=""><figcaption><p>小语GPT根据需求编写SQL语句</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/scene4_1.png" alt="" width="563"><figcaption><p>小语GPT根据需求编写SQL语句</p></figcaption></figure>
+
+</div>
 
 ## **技巧 3：使用引导词，引导模型输出特定格式内容**
 
@@ -60,6 +64,6 @@ WHERE d.DepartmentName = 'Computer Science Department';
 SELECT
 ```
 
-在提示语的最后增加 SELECT 可以很好地提示 AI 可以写 SQL 代码了。
+在提示语的最后增加 **SELECT** 可以很好地提示 AI 可以写 SQL 代码了。
 
 同样的道理，如果你想让 AI 写 Python 代码，那代码引导会是比较好的提示。但需要注意，这个只是告知 AI 可以写代码了，并不能告知 AI 写何种代码，你仍然需要在提示语里增加提示，告知 AI 要生成何种语言的代码。

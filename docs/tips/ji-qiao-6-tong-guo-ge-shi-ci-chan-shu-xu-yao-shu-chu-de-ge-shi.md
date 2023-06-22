@@ -8,6 +8,7 @@ sidebar_position: 6
 
 假设你想让 AI 总结一篇非常非常长的文章，并且按照特定格式给你总结，那你可以在文章前面明确输出的格式（为了不占用太多显示空间，我们省略了正文内容，你可以在 OpenAI 的 Playground 看到[完整案例](https://platform.openai.com/playground/p/3U5Wx7RTIdNNC9Fg8fc44omi)）。它的意思其实是让 ChatGPT 按「主题」总结，每个主题里按照无序列表（就是里面那个 -）将每个 主题的主要观点罗列出来。
 
+{% code overflow="wrap" %}
 ```other
 请概括以下演讲的主要观点，并按照以下格式呈现：
 主题1：<主题名称1>
@@ -25,6 +26,7 @@ sidebar_position: 6
 ...
 """
 ```
+{% endcode %}
 
 回复是这样的：
 
@@ -40,7 +42,11 @@ sidebar_position: 6
 - 社区和城市被毁
 ```
 
-<figure><img src="../.gitbook/assets/skill06_1.png" alt=""><figcaption><p>小语GPT以规定的格式输出结论</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/skill06_1.png" alt="" width="563"><figcaption><p>小语GPT以规定的格式输出结论</p></figcaption></figure>
+
+</div>
 
 关于这个场景和技巧想再解释一下为什么潜力很大。根据使用各种总结或者信息提取的产品发现，AI 并不知道什么是重点，所以在总结的过程中，会丢失很多内容。如何引导 AI 进行总结，就变得非常重要，且具有一定的可玩性。针对此场景的技巧：
 
@@ -53,12 +59,12 @@ sidebar_position: 6
 比如：
 
 ```other
-{context}
-Question: What is bond duration mentioned here.
-Answer template (Valid JSON format):
+{上下文}
+问题：这里提到的债券期限是什么？
+答案模板（有效的JSON格式）：
 {{
-"duration": $duration_numeric_value_in_year,
-"confidence_level": $answer_confidence_level_high_moderate_or_low,
+"期限": $年度数值,
+"置信水平":$答案置信水平为高、中或低,
 }}
-Answer:
+答案：
 ```

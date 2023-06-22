@@ -1,6 +1,6 @@
-# ⏳ 给 GPT 一些“思考”时间
+# ⏳ 给 GPT 一些「思考」时间
 
-如果要求你计算 17 X 28，你可能不会立刻说出答案，但只需要一点计算的时间你就可以给出正确答案。同样，GPT 在试图立即回答问题时，比花时间计算答案更容易出现推理错误。在回答问题之前，如果能提供一系列推理过程可以帮助 GPT 更可靠地推导出正确答案。
+如果要求你计算 17 \* 28，你可能不会立刻说出答案，但只需要一点计算的时间你就可以给出正确答案。同样，小语 GPT 在试图立即回答问题时，比花时间计算答案更容易出现推理错误。在回答问题之前，如果能提供一系列推理过程可以帮助 GPT 更可靠地推导出正确答案。
 
 ## **指导模型在盲目下结论之前自行解决问题**
 
@@ -82,7 +82,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_4_1 (1).png" alt=""><figcaption><p>小语GPT先自行推再解答示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_4_1 (1).png" alt="" width="563"><figcaption><p>小语GPT先自行推再解答示例</p></figcaption></figure>
+
+</div>
 
 ## **使用内心独白来隐藏模型的推理过程**
 
@@ -138,7 +142,11 @@
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/best6_4_2 (1).png" alt=""><figcaption><p>小语GPT通过“内心独白”详细解释过程示例</p></figcaption></figure>
+<div align="left">
+
+<figure><img src="../.gitbook/assets/best6_4_2 (1).png" alt="" width="563"><figcaption><p>小语GPT通过“内心独白”详细解释过程示例</p></figcaption></figure>
+
+</div>
 
 或者，我们可以通过一系列查询来实现这个目标，其中除了最后一个查询，其他所有的查询结果都对最终用户保持不可见。
 
