@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🗺️ 提示语学习导航](README.md)
+* [🗺️ 提示语学院导航](README.md)
 * [🤖 小语 GPT 介绍](xiaoyu.md)
 * [🎓 小语 GPT 使用](xiao-yu-gpt-shi-yong.md)
 * [基础篇](basic/README.md)

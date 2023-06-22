@@ -16,7 +16,7 @@ Azure OpenAI 服务通过 OpenAI GPT-3.5、GPT-4 和 DALL-E 模型为企业客�
 
 ## 小语 GPT 服务模型介绍
 
-<table><thead><tr><th width="146">模型名称</th><th width="180.33333333333331">模型系列</th><th>说明</th></tr></thead><tbody><tr><td>小语 3.5</td><td>GPT-3.5-turbo</td><td>GPT-3.5-turbo 是一种专为对话接口设计的语言模型，可以理解和生成自然语言或代码。兼具实力与成本优势，响应速度快。最多支持 4,096 个输入令牌（Token）。</td></tr><tr><td>小语 3.5 16K</td><td>GPT-3.5-turbo-16k</td><td>具有标准GPT-3.5-Turbo 模型相同的功能，但上下文长度增加了4倍。</td></tr><tr><td>小语 4.0</td><td>GPT-4</td><td>比任何GPT-3.5模型更强大，能够执行更复杂的任务但成本高昂且响应速度慢。最多支持 8,192 个输入令牌。</td></tr><tr><td>小语 4.0 32K</td><td>GPT-4-32K</td><td>与基础GPT-4模式具有相同的功能，但上下文长度增加了4倍。</td></tr></tbody></table>
+<table><thead><tr><th width="146">模型名称</th><th width="180.33333333333331">模型系列</th><th>说明</th></tr></thead><tbody><tr><td>小语 3.5</td><td>GPT-3.5-turbo</td><td>GPT-3.5-turbo 是一种专为对话接口设计的语言模型，可以理解和生成自然语言或代码。<mark style="color:blue;">兼具实力与成本优势，响应速度快</mark>。最多支持 4,096 个输入令牌（Token）。</td></tr><tr><td>小语 3.5 16K</td><td>GPT-3.5-turbo-16k</td><td>具有标准GPT-3.5-Turbo 模型相同的功能，但上下文长度增加了4倍。</td></tr><tr><td>小语 4.0</td><td>GPT-4</td><td>比任何GPT-3.5模型更强大，能够执行更复杂的任务但<mark style="color:red;">成本高昂且响应速度慢</mark>。最多支持 8,192 个输入令牌。</td></tr><tr><td>小语 4.0 32K</td><td>GPT-4-32K</td><td>与基础GPT-4模式具有相同的功能，但上下文长度增加了4倍。</td></tr></tbody></table>
 
 > 补充说明：
 >
