@@ -3,7 +3,6 @@
 * [🗺️ 提示语学院导航](README.md)
 * [🤖 小语 GPT 介绍](xiaoyu.md)
 * [🎓 小语 GPT 使用](xiao-yu-gpt-shi-yong.md)
-* [❓ 常见问题](chang-jian-wen-ti.md)
 * [基础篇](basic/README.md)
   * [📝 简介](basic/jian-jie.md)
   * [🔰 基础用法](basic/ji-chu-yong-fa.md)
@@ -38,3 +37,4 @@
   * [⏳ 给 GPT 一些「思考」时间](best-practice/gei-gpt-yi-xie-si-kao-shi-jian.md)
   * [🛠️ 使用外部工具](best-practice/shi-yong-wai-bu-gong-ju.md)
   * [⚙️ 系统化测试变更](best-practice/xi-tong-hua-ce-shi-bian-geng.md)
+* [❓ 常见使用问题](chang-jian-shi-yong-wen-ti.md)
