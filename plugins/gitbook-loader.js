@@ -76,7 +76,7 @@ function loader(_source) {
      */
     source = source.replaceAll(/\{%\s+embed\s+url="([^}]*)"\s*\%}\n\s*(.*)\n\s*\{% endembed %\}/mg, (_, a, b) => {
         return `<div style={{textAlign: 'center', paddingBottom: '56.25%', width: '100%', position: 'relative'}}> 
-<iframe width="100%" height='100%' style={{position: 'absolute', top: 0, left: 0}} src="${a}" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height='100%' style={{position: 'absolute', top: 0, left: 0}} src="${a}" scrolling="no" border="0" frameBorder="no" framespacing="0" allowFullScreen="true"> </iframe>
         </div>
         <div style={{textAlign: 'center',fontSize: '12px', color: 'rgb(136, 153, 168)', marginTop: '8px'}}>${b.trim()}</div>`
     })
