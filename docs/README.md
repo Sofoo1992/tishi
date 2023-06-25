@@ -8,9 +8,9 @@ sidebar_position: 0
 
 2023年三月份，英伟达CEO黄仁勋和OpenAI首席科学家伊利亚·苏茨科弗（Ilya Sutskever）有一个对谈。在这个对谈中，苏茨科弗进一步解释了GPT是怎么回事儿。
 
-<div align="left">
+<div align="center">
 
-<figure><img src=".gitbook/assets/image(40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image(40).png" alt=""><figcaption><p>黄仁勋和伊利亚·苏茨科弗（Ilya Sutskever）对谈</p></figcaption></figure>
 
 </div>
 
@@ -72,7 +72,7 @@ GPT是一个语言模型，可以用来回答各种问题。无论用中文还�
 
 在学院中，你可能会遇到一些初次接触的名词或概念，这些内容可能会让你感到难以理解，这是完全正常的。你可以把你的疑惑详细地向小语 GPT 提问，小语都能为你解答。就如同你的领导对待你一样，你可以向小语持续提问，直到你彻底理解为止。例如，我这里对「意图分类」这个概念不太清楚：
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/alwaysASK.jpg" alt="" width="563"><figcaption><p>不懂就问</p></figcaption></figure>
 

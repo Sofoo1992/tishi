@@ -52,7 +52,7 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene5_1.png" alt="" width="563"><figcaption><p>小语GPT用通俗易懂的方式解答复杂问题</p></figcaption></figure>
 
@@ -72,7 +72,7 @@ OpenAI是一个在美国的机器人大脑研究地方，有两个部分组成�
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene5_2.png" alt="" width="563"><figcaption><p>小语GPT用通俗易懂的方式解答复杂问题</p></figcaption></figure>
 

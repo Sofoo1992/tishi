@@ -124,7 +124,7 @@
 {"计数": 1}
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_6_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -173,7 +173,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_6_3.png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
 
@@ -224,7 +224,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_6_4 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
 
@@ -265,7 +265,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_6_5 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
 
@@ -306,7 +306,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_6_6 (1).png" alt="" width="563"><figcaption><p>小语GPT模型与标准答案评估示例</p></figcaption></figure>
 

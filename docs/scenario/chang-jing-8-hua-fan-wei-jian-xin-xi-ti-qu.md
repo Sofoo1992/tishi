@@ -57,7 +57,7 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene8_1.png" alt="" width="563"><figcaption><p>小语GPT根据特殊格式提取信息</p></figcaption></figure>
 
@@ -101,7 +101,7 @@ Machinet通过从构建自己的机器学习系统转向使用Codex，实现了�
 - 社区和城市被毁
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene8_2.png" alt="" width="563"><figcaption><p>小语GPT通过格式化方式输出信息</p></figcaption></figure>
 

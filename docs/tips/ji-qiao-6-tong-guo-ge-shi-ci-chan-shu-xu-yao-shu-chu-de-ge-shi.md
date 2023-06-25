@@ -42,7 +42,7 @@ sidebar_position: 6
 - 社区和城市被毁
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/skill06_1.png" alt="" width="563"><figcaption><p>小语GPT以规定的格式输出结论</p></figcaption></figure>
 

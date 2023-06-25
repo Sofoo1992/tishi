@@ -35,7 +35,7 @@ x = 90,000
 所以房子的售价是90,000美元。
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene3_1.png" alt="" width="563"><figcaption><p>小语GPT解答美国工商管理硕士的入学考试 GMAT 的一道数学题</p></figcaption></figure>
 

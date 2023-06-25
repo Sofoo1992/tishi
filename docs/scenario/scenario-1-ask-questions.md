@@ -2,7 +2,7 @@
 
 这个场景应该是使用 AI 产品最常见的方法。以 小语 GPT 为例，一般就是你提一个问题， 小语 GPT 会给你答案，比如像这样：
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene1_1.png" alt="" width="563"><figcaption><p>你提一个问题， 小语 GPT 会给你答案</p></figcaption></figure>
 

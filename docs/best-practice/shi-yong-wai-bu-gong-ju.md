@@ -36,7 +36,7 @@ print(real_roots)
 ````
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_5_1.png" alt="" width="563"><figcaption><p>小语GPT根据需求生成Python代码示例</p></figcaption></figure>
 
@@ -104,7 +104,7 @@ message.write(to="爱丽丝", message="嘿，我们10点在咖啡店见面。")
 ```
 ````
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_5_3.png" alt="" width="563"><figcaption><p>调用外部API示例</p></figcaption></figure>
 

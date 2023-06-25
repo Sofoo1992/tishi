@@ -30,7 +30,7 @@ sidebar_position: 2
 
 这个技巧来自于 Kojima 等人 2022 年的论文 [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)。在论文里提到，当我们向模型提一个逻辑推理问题时，模型返回了一个错误的答案，但如果我们在问题最后加入 `让我们一步一步地思考` 这句话之后，模型就生成了正确的答案：
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/whiteboard_exported_image.png" alt="" width="563"><figcaption><p>零样本思维链提示语示例图</p></figcaption></figure>
 
@@ -45,7 +45,7 @@ sidebar_position: 2
 
 按照论文里的解释，零样本思维链涉及两个补全结果，左侧气泡表示基于提示输出的第一次的结果，右侧气泡表示其收到了第一次结果后，将最开始的提示一起拿去运算，最后得出了正确的答案：
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/whiteboard_exported_image(1).png" alt="" width="563"><figcaption><p>零样本思维链推理过程</p></figcaption></figure>
 
@@ -199,7 +199,7 @@ AI 的回答是「学生的解答正确」。但其实学生的答案是错误�
 错误
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/02_nonetips_3.png" alt="" width="563"><figcaption><p>小语GPT判断答案是否正确</p></figcaption></figure>
 

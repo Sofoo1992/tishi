@@ -82,7 +82,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_4_1 (1).png" alt="" width="563"><figcaption><p>小语GPT先自行推再解答示例</p></figcaption></figure>
 
@@ -142,7 +142,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_4_2 (1).png" alt="" width="563"><figcaption><p>小语GPT通过“内心独白”详细解释过程示例</p></figcaption></figure>
 

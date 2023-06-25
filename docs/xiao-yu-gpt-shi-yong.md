@@ -17,7 +17,7 @@
 
 在对话输入框中输入你想问的任何问题（需要避免涉及敏感话题），比如「假设你是一位川菜大厨，告诉我这个新手如何做鱼香肉丝这道菜」。小语 GPT 回复后你可以继续追问，但是需要注意我们不能同时发送多条消息，必须要等 小语 GPT 回复完成后才能发送下一条消息。
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/跟小语gpt学习做鱼香肉丝.gif" alt="" width="563"><figcaption><p>跟小语gpt学习做鱼香肉丝</p></figcaption></figure>
 
@@ -31,7 +31,7 @@
 
 以提示语应用 「1 分钟写抖音脚本」为例：
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/1分钟写抖音脚本.gif" alt="" width="563"><figcaption><p>1分钟写一个抖音脚本</p></figcaption></figure>
 
@@ -41,7 +41,7 @@
 
 在对话输入框点击文件 📃 图标上传本地文档和输入提示语（指令）发送即可。
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/本地文档对话.gif" alt="" width="563"><figcaption><p>本地文档对话</p></figcaption></figure>
 
@@ -55,7 +55,7 @@
 
 根据 URL 地址提取摘要 —— 通过实时抓取提供网址的内容，使用副标题、要点和速读者摘要来总结文本。我们以 Midjourney 官方的一篇英文教程 [https://docs.midjourney.com/docs/image-prompts](https://docs.midjourney.com/docs/image-prompts) 为例。我们输入这个地址然后等待小语帮我们翻译和总结。
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/从url抓取内容.gif" alt="" width="563"><figcaption><p>从网址提取摘要（实时爬取）</p></figcaption></figure>
 
@@ -69,7 +69,7 @@
 
 小语 GPT 每次回复的内容具有一定的随机性，如果我们对小语的本次回复内容不满意，可以将鼠标悬浮到回复内容上会出现**「**<mark style="color:blue;">**重试**</mark>**」**，点击即可重新生成回复内容。
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/重新生成.gif" alt="" width="563"><figcaption><p>以替换的方式重新生成回复内容</p></figcaption></figure>
 
@@ -81,7 +81,7 @@
 
 此外，如果对本次回复内容不满意，你也可以选择在输入框的上方点击**「重写」**再次生成一条回复，与前面不同的是原先的回复内容会被保留。
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/重写.gif" alt="" width="563"><figcaption><p>以追加的方式重新生成回复内容</p></figcaption></figure>
 
@@ -89,7 +89,6 @@
 
 这里相当于默认内置了一些便捷提示语，与我们在输入框中手动输入「请重写」后发送没有区别。此外，还有以下类似操作：
 
-*
 * 举例：若遇到难以理解的概念，可点击「举例」以帮助我们更好地理解复杂概念。
 * 扩充：如果回复的内容不够充实，可点击「扩充」，将在上一条回复内容的基础上进行拓展，使回复内容更为丰富。
 * 解释：同样适用于帮助我们理解复杂概念。
@@ -101,7 +100,7 @@
 
 修改最后一条我们已发送的内容小语 GPT 会重新生成最后一条回复消息。修改再之前已发送的内容会清空后续的所有对话内容并重新sheng'cheng
 
-<div align="left">
+<div align="center">
 
 <figure><img src=".gitbook/assets/修改已输入 (1).gif" alt="" width="563"><figcaption><p>修改已发送的内容</p></figcaption></figure>
 
@@ -115,9 +114,9 @@
 
 如果我们想把对话内容保存到本地，可以点击下载按钮保存，文档保存格式为 Markdown。如果你需要编辑可以选择本地打开或者使用[飞书文档](https://www.feishu.cn/product/docs)。
 
-<div align="left">
+<div align="center">
 
-<figure><img src=".gitbook/assets/20230622002308_rec_.gif" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/20230622002308_rec_.gif" alt="" width="563"><figcaption><p>下载聊天记录</p></figcaption></figure>
 
 </div>
 

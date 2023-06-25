@@ -10,7 +10,7 @@ sidebar_position: 8
 
 下面是论文里的案例，使用方法很简单，在技巧 2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/%E5%B0%91%E6%A0%B7%E6%9C%AC%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA%E8%AF%AD.png" alt=""><figcaption></figcaption></figure>
 
@@ -39,7 +39,7 @@ sidebar_position: 8
 答：
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/skill08_2.png" alt="" width="563"><figcaption><p>小语GPT通过少样本思维链解答基偶求和问题</p></figcaption></figure>
 
@@ -65,7 +65,7 @@ sidebar_position: 8
 消极
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/skill08_3.png" alt="" width="563"><figcaption><p>小语GPT少样本思维链示例</p></figcaption></figure>
 

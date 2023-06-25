@@ -38,7 +38,7 @@
 
 将所有的元素都组合在一起，就变成了这样的提示语，对比基础提示语生成的结果会非常不一样。
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/01_frame_1.png" alt="" width="563"><figcaption><p>小语GPT提示语框架示例</p></figcaption></figure>
 

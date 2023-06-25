@@ -43,7 +43,7 @@
 风驰电掣、神奇马侠、奔雷神骏
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene2_1 (2).png" alt="" width="563"><figcaption><p>增加示例引导保持回复风格一致</p></figcaption></figure>
 

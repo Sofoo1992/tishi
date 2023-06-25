@@ -44,7 +44,7 @@ WHERE d.DepartmentName = 'Computer Science Department';
 ````
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/scene4_1.png" alt="" width="563"><figcaption><p>小语GPT根据需求编写SQL语句</p></figcaption></figure>
 

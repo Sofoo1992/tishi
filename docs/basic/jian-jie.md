@@ -10,11 +10,11 @@ sidebar_position: 1
 
 简单的理解它是**给 AI 模型的指令**。
 
-它可以是一个问题、一段文字描述，甚至可以是带有一堆参数的文字描述。AI 模型会基于 prompt 所提供的信息，生成对应的文本，亦或者图片。
+它可以是一个问题、一段文字描述，甚至可以是带有一堆参数的文字描述。AI 模型会基于提示语所提供的信息，生成对应的文本，图片、亦或者视频。
 
 比如，我们在 小语 GPT 里输入“中国的首都是什么？”，这个问题就是 「提示语」。
 
-<div align="left" data-full-width="false">
+<div align="center" data-full-width="false">
 
 <figure><img src="../.gitbook/assets/image(60).png" alt="" width="563"><figcaption><p>向小语GPT提问</p></figcaption></figure>
 
@@ -44,7 +44,7 @@ sidebar_position: 1
 
 小语 4.0 回复：
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/base_introduction_1.png" alt="" width="563"><figcaption><p>小语GPT介绍《富爸爸，穷爸爸》这本书</p></figcaption></figure>
 
@@ -98,7 +98,7 @@ sidebar_position: 1
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/base_introduction_2.png" alt="" width="563"><figcaption><p>小语GPT解答关于《富爸爸，穷爸爸》的 7 个具体的问题</p></figcaption></figure>
 
@@ -111,6 +111,6 @@ sidebar_position: 1
 
 我们还做了一期视频专门来介绍「提示语工程师」这个职业。
 
-{% embed url="https://player.bilibili.com/player.html?aid=997395929&bvid=BV1ws4y117S4&cid=1168685120&page=1" %}
+{% embed url="https://player.bilibili.com/player.html?aid=997395929&bvid=BV1ws4y117S4&cid=1168685120&page=1" fullWidth="false" %}
 学会写提示语，就能摆脱职场内卷？AI浪潮下，提示语工程师还能火多久？ChatGPT带火的新职业
 {% endembed %}

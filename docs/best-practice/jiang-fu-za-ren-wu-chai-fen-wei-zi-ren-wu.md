@@ -49,7 +49,7 @@
 }
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_3_1.png" alt="" width="563"><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
 
@@ -110,7 +110,7 @@
 ```
 {% endcode %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/best6_3_2.png" alt="" width="563"><figcaption><p>小语GPT分步骤解答问题示例</p></figcaption></figure>
 

@@ -27,7 +27,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 孩子们在草地上快乐地farduddle，充满了活力。
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/03_lesstips_1.png" alt="" width="563"><figcaption><p>小语GPT计算概率问题</p></figcaption></figure>
 
@@ -78,7 +78,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 
 下面是论文里的案例，使用方法很简单，在技巧2 的基础上，再将逻辑过程告知给模型即可。从下面这个案例里，你可以看到加入解释后，输出的结果就正确了。
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/%E5%B0%91%E6%A0%B7%E6%9C%AC%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA%E8%AF%AD.png" alt=""><figcaption></figcaption></figure>
 
@@ -107,7 +107,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 答：
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/03_lesstips_3.png" alt="" width="563"><figcaption><p>小语GPT通过少样本策略计算概率问题示例</p></figcaption></figure>
 
@@ -133,7 +133,7 @@ Brown 输入的内容是这样的（whatpu 和 farduddle 其实根本不存在�
 消极
 ```
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/03_lesstips_4.png" alt="" width="563"><figcaption><p>小语GPT通过少样本策略计算概率问题示例</p></figcaption></figure>
 
