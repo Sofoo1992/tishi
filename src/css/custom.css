@@ -1044,3 +1044,14 @@ aside div {
 mark {
   background-color: transparent;
 }
+
+figcaption {
+  text-align: center;
+  font-size: 12px; 
+  color: rgb(136, 153, 168);
+}
+
+code {
+  white-space: pre-wrap; 
+  overflow-wrap: anywhere;
+}

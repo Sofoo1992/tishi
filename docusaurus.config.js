@@ -9,8 +9,8 @@ const gitBookPlugin = require('./plugins/gitbook.cjs')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Learning Prompt',
-  tagline: '免费的 Prompt Engineering 教程',
+  title: '提示语学院',
+  tagline: '提示语教程',
   url: 'https://learningpromt.wiki',
   baseUrl: '/',
   onBrokenLinks: 'warn',

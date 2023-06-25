@@ -18,10 +18,6 @@ function loader(_source) {
       source = source.replaceAll("<br>", "<br />");
     }
 
-    if (source.includes("<xml>")) {
-      source = source.replaceAll("<xml>", "");
-    }
-
     if (source.includes(`{% hint style="info" %}`)) {
         source = source.replaceAll(`{% hint style="info" %}`, ':::info\n')
     }
@@ -84,6 +80,9 @@ function loader(_source) {
         </div>
         <div style={{textAlign: 'center',fontSize: '12px', color: 'rgb(136, 153, 168)', marginTop: '8px'}}>${b.trim()}</div>`
     })
+
+    // \<xml> => <xml\>
+    source = source.replaceAll('\\<xml>', '<xml\\>')
 
     return source
 }
