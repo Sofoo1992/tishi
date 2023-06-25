@@ -1,6 +1,6 @@
 {
     "trailingSlash": false,
-    "redirects": [
-        { "source": "/docs/:path(.*(?!\\.html))", "destination": "/docs/:path*.html" }
+    "rewrites": [
+        { "source": "/docs/:path(.*(?!html))", "destination": "/docs/:path*.html" }
     ]
 }
