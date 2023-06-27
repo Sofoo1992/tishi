@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 
 export default function Home(): JSX.Element {
   useEffect(() => {
-    window.location.href = '/docs'
-  }, [])
+    window.location.href = '/docs';
+  }, []);
 
-  return null
+  return null;
 }

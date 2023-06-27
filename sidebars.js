@@ -9,81 +9,84 @@
  Create as many sidebars as you want.
  */
 
- const fs = require('fs')
- const path = require('path')
- const summaryFile = path.join('docs/SUMMARY.md');
- 
-const generateSitemap = () => {
-     const fileContent = fs.readFileSync(summaryFile, 'utf-8');
-     const lines = fileContent.split('\n')
-     const map = []
- 
-     lines.forEach(line => {
-         if (!line.trim().startsWith('*')) {
-             return
-         }
- 
-         const spaceLength = (line.length - line.trimStart().length) / 2
- 
-         if (spaceLength === 0) {
-             const item = parseItem(line);
- 
-             if (!item) {
-                 return
-             }
- 
-             map.push(item)
-         } else if (spaceLength === 1) {
-             const item = parseItem(line)
- 
-             if (!item) {
-                 return
-             }
- 
-             const last = map[map.length - 1];
- 
-             last.type = "category";
-             last.items = last.items || []
-             
-             if (!last.link) {
-              last.link = {
-                type: 'generated-index',
-                slug: 'category/' + (last.id.split('/')[0].includes('docs') ? last.id.split('/')[1] : last.id.split('/')[0])
-               }
-             }
+const fs = require('fs');
+const path = require('path');
+const summaryFile = path.join('docs/SUMMARY.md');
 
-             last.id && delete last.id
- 
-             last.items.push(item.id)
-         } else {
-             console.error("未支持三层目录结构解析.")
-         }
-     })
- 
-     return map
- }
- 
- // * [基础篇](docs/basic/README.md)
- const parseItem = (item) => {
-     const res = /\*\s+\[(.*)\]\((docs\/)?(.*)\.md\)/.exec(item.trim())
- 
-     if (!res) {
-         return null
-     }
- 
-     return {
-         label: res[1],
-         id: res[3],
-         type: 'doc'
-     }
- }
- 
- // @ts-check
- 
- /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
- const sidebars = {
-   chatGPT: generateSitemap(),
- }
- 
- module.exports = sidebars
- 
+const generateSitemap = () => {
+  const fileContent = fs.readFileSync(summaryFile, 'utf-8');
+  const lines = fileContent.split('\n');
+  const map = [];
+
+  lines.forEach((line) => {
+    if (!line.trim().startsWith('*')) {
+      return;
+    }
+
+    const spaceLength = (line.length - line.trimStart().length) / 2;
+
+    if (spaceLength === 0) {
+      const item = parseItem(line);
+
+      if (!item) {
+        return;
+      }
+
+      map.push(item);
+    } else if (spaceLength === 1) {
+      const item = parseItem(line);
+
+      if (!item) {
+        return;
+      }
+
+      const last = map[map.length - 1];
+
+      last.type = 'category';
+      last.items = last.items || [];
+
+      if (!last.link) {
+        last.link = {
+          type: 'generated-index',
+          slug:
+            '/category/' +
+            (last.id.split('/')[0].includes('docs')
+              ? last.id.split('/')[1]
+              : last.id.split('/')[0]),
+        };
+      }
+
+      last.id && delete last.id;
+
+      last.items.push(item.id);
+    } else {
+      console.error('未支持三层目录结构解析.');
+    }
+  });
+
+  return map;
+};
+
+// * [基础篇](docs/basic/README.md)
+const parseItem = (item) => {
+  const res = /\*\s+\[(.*)\]\((docs\/)?(.*)\.md\)/.exec(item.trim());
+
+  if (!res) {
+    return null;
+  }
+
+  return {
+    label: res[1],
+    id: res[3],
+    type: 'doc',
+  };
+};
+
+// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  chatGPT: generateSitemap(),
+};
+
+module.exports = sidebars;
