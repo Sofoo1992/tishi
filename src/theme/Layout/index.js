@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import clsx from 'clsx';
 import ErrorBoundary from '@docusaurus/ErrorBoundary';
 import {
@@ -6,7 +6,7 @@ import {
   SkipToContentFallbackId,
   ThemeClassNames,
 } from '@docusaurus/theme-common';
-import {useKeyboardNavigation} from '@docusaurus/theme-common/internal';
+import { useKeyboardNavigation } from '@docusaurus/theme-common/internal';
 import SkipToContent from '@theme/SkipToContent';
 import AnnouncementBar from '@theme/AnnouncementBar';
 import Navbar from '@theme/Navbar';
@@ -24,6 +24,11 @@ export default function Layout(props) {
     description,
   } = props;
   useKeyboardNavigation();
+
+  useEffect(() => {
+    parent.postMessage('loaded', '*');
+  }, []);
+
   return (
     <LayoutProvider>
       <PageMetadata title={title} description={description} />
@@ -40,7 +45,8 @@ export default function Layout(props) {
           ThemeClassNames.wrapper.main,
           styles.mainWrapper,
           wrapperClassName,
-        )}>
+        )}
+      >
         <ErrorBoundary fallback={(params) => <ErrorPageContent {...params} />}>
           {children}
         </ErrorBoundary>
