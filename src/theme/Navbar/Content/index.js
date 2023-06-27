@@ -11,7 +11,7 @@ import NavbarMobileSidebarToggle from '@theme/Navbar/MobileSidebar/Toggle';
 import NavbarLogo from '@theme/Navbar/Logo';
 import NavbarSearch from '@theme/Navbar/Search';
 import styles from './styles.module.css';
-import { inIframe } from '@site/src/utils/is-in-iframe';
+import { useInIFrame } from '@site/src/utils/is-in-iframe';
 function useNavbarItems() {
   // TODO temporary casting until ThemeConfig type is improved
   return useThemeConfig().navbar.items;
@@ -38,8 +38,9 @@ export default function NavbarContent() {
   const items = useNavbarItems();
   const [leftItems, rightItems] = splitNavbarItems(items);
   const searchBarItem = items.find((item) => item.type === 'search');
+  const inIframe = useInIFrame();
 
-  if (inIframe()) {
+  if (inIframe) {
     return (
       <div className={styles.navBarToggle}>
         {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}

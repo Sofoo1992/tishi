@@ -7,7 +7,7 @@ import {
 } from '@docusaurus/theme-common/internal';
 import NavbarMobileSidebar from '@theme/Navbar/MobileSidebar';
 import styles from './styles.module.css';
-import { inIframe } from '@site/src/utils/is-in-iframe';
+import { useInIFrame } from '@site/src/utils/is-in-iframe';
 function NavbarBackdrop(props) {
   return (
     <div
@@ -23,7 +23,7 @@ export default function NavbarLayout({ children }) {
   } = useThemeConfig();
   const mobileSidebar = useNavbarMobileSidebar();
   const { navbarRef, isNavbarVisible } = useHideableNavbar(hideOnScroll);
-  const isInIframe = inIframe();
+  const isInIframe = useInIFrame();
 
   return (
     <nav
