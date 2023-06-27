@@ -1,25 +1,22 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const tailwindPlugin = require('./plugins/tailwind-plugin.cjs')
-const gitBookPlugin = require('./plugins/gitbook.cjs')
+const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
+const gitBookPlugin = require('./plugins/gitbook.cjs');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '提示语学院',
   tagline: '提示语教程',
-  url: 'https://learningpromt.wiki',
+  url: 'https://learn.tishi.top',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'thinkingjimmy',
-  projectName: 'Learning-prompt.github.io',
-  trailingSlash: false,
-  deploymentBranch: 'gh-pages',
+  trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -28,7 +25,7 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-  staticDirectories: ['.gitbook/assets', 'docs/.gitbook/assets','static'],
+  staticDirectories: ['.gitbook/assets', 'docs/.gitbook/assets', 'static'],
 
   presets: [
     [
@@ -84,7 +81,7 @@ const config = {
         darkTheme: darkCodeTheme,
         additionalLanguages: ['rust'],
       },
-    })
-}
+    }),
+};
 
-module.exports = config
+module.exports = config;
