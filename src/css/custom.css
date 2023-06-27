@@ -101,22 +101,22 @@
   .noise-bg {
     background-image: url('/static/landing-page/grid-light.svg'),
       /*url('/static/landing-page/background.png'),*/
-      linear-gradient(
-        to bottom,
-        transparent 40%,
-        rgb(var(--docs-color-secondary-700))
-      );
+        linear-gradient(
+          to bottom,
+          transparent 40%,
+          rgb(var(--docs-color-secondary-700))
+        );
     background-size: 48px 48px, 100% 100%, 100%;
   }
 
   html[data-theme='dark'] .noise-bg {
     background-image: url('/static/landing-page/grid-dark.svg'),
       /*url('/static/landing-page/background.png'),*/
-      linear-gradient(
-        to bottom,
-        transparent 40%,
-        rgb(var(--docs-color-secondary-900))
-      );
+        linear-gradient(
+          to bottom,
+          transparent 40%,
+          rgb(var(--docs-color-secondary-900))
+        );
   }
 
   /* .sdk-section {
@@ -252,7 +252,9 @@ pre.prism-code {
 }
 
 .emoji {
-  font-family: Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,Android Emoji,EmojiSymbols,EmojiOne Mozilla,Twemoji Mozilla,Segoe UI Symbol,Noto Color Emoji Compat,emoji,noto-emojipedia-fallback;
+  font-family: Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji,
+    Android Emoji, EmojiSymbols, EmojiOne Mozilla, Twemoji Mozilla,
+    Segoe UI Symbol, Noto Color Emoji Compat, emoji, noto-emojipedia-fallback;
 }
 
 .navbar__item,
@@ -978,7 +980,7 @@ img[src$='#terminal'] {
   @apply mt-4;
 }
 
-.notesContainer h4{
+.notesContainer h4 {
   @apply mb-8;
 }
 
@@ -988,7 +990,7 @@ img[src$='#terminal'] {
 
 .notesContainer .type {
   width: 11rem;
-  border-right:2px solid;
+  border-right: 2px solid;
   color: #757275;
   @apply border-b-0 align-top font-bold;
 }
@@ -1037,9 +1039,9 @@ img[src$='#terminal'] {
   display: none;
 } */
 
-aside div {
+/* aside div {
   padding-top: 10px !important;
-}
+} */
 
 mark {
   background-color: transparent;
@@ -1047,11 +1049,11 @@ mark {
 
 figcaption {
   text-align: center;
-  font-size: 12px; 
+  font-size: 12px;
   color: rgb(136, 153, 168);
 }
 
 code {
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }

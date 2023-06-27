@@ -66,15 +66,9 @@ const config = {
         logo: {
           alt: '学习提示语',
           src: 'img/logo.svg',
+          href: 'https://tishi.top',
+          target: '_current',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'README',
-            position: 'left',
-            label: '💬 提示语',
-          },
-        ],
       },
       prism: {
         theme: lightCodeTheme,

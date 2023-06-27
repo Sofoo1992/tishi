@@ -5,3 +5,8 @@
 .navbarHidden {
   transform: translate3d(0, calc(-100% - 2px), 0);
 }
+
+.navBarInIframe {
+  position: absolute;
+  border-bottom: 0 !important;
+}

@@ -38,7 +38,6 @@ function loader(_source) {
   });
 
   source = source.replaceAll(/\(([a-zA-Z-_\/]*)\/\)/g, (_, a) => {
-    console.log(_);
     return `(category/${a})`;
   });
 
