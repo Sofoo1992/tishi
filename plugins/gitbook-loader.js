@@ -1,5 +1,3 @@
-const sidemap = require('../sidebars').chatGPT;
-
 function loader(_source) {
   let source = _source;
 
