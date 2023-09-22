@@ -4,8 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const tailwindPlugin = require('./plugins/tailwind-plugin.cjs');
-const gitBookPlugin = require('./plugins/gitbook.cjs');
+const tailwindPlugin = require('./plugins/tailwind-plugin.cjs')
+const gitBookPlugin = require('./plugins/gitbook.cjs')
+const baiduAnalyzePlugin = require('./plugins/baidu-analyze.cjs')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,15 +44,15 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        gtag: {
-          trackingID: 'G-9QBEXE7W09',
-          anonymizeIP: true,
-        },
+        // gtag: {
+        //   trackingID: 'G-9QBEXE7W09',
+        //   anonymizeIP: true,
+        // },
       }),
     ],
   ],
 
-  plugins: [tailwindPlugin, gitBookPlugin],
+  plugins: [baiduAnalyzePlugin, tailwindPlugin, gitBookPlugin],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
